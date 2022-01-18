@@ -1,0 +1,46 @@
+* Variables
+
+Una variable es un espacio en el que se puede guardar un valor, este espacio recive un nombre con el cual identificarlo y asi poder obtener lo que este guardando.
+Para crear una variable se usa la palabra clave(keyword) var seguido del nombre con el cual identificarla y por ultimo el punto y coma(;):
+
+var nombre;
+
+Para darle un valor usamos el operador "=" como en una operacion de suma, primero escribimos el nombre de nuestra variable previamente creada ya que no podemos guardar algo en un espacio inexistente, seguidamente añadimos el operador "=" y el valor que desemos que guarde:
+
+var x;
+x = 2;
+
+Aqui hemos creado una variable llamada x y seguidamente le hemos guardado o asignado el valor de 2, las variables no solo pueden guardar numeros, tambien palabra entre otros:
+Si queremos que guarde una frase o letras debemos usar las comillas "texto", ademas podemos darle un valor a la variable en la misma parte en donde la creamos
+var letra = "a";
+var palabra = "hola";
+var frase = "hola mundo";
+
+* Strings
+son un tipo de dato el cual representa un conjunto de letras llamado cadena de caracteres y de igual forma que le asignamos un texto a una variable para representar un string tambien se usan las ""
+ejm: 
+"Esto es un string";
+var s = "Una variable q guarda un string";
+
+* Funciones (argumentos, `return`)
+Las funciones son maquinas q realizan una tarea cuando son "encendidas" o llamadas en este caso, por ejemplo una olla arrocera, la cual se escarga de hacer arroz, pero no lo hace sola, 
+para que realice arroz debemos añadirle los ingredientes, estos serian los atributos de la funcion, ejm cantidad de aceite, arroz, etc. Ya añadidos los ingredientes la olla se encargara de hacer el arroz
+y des pues de un tiempo obtendremos el arroz cocido esto es el return de la funcion es decir lo que la funcion nos entrega despues de realizar su trabajo,
+las funciones no necesariamente requieren de atributos o un return, para crear una funcion se usa la palabra clave function seguido de () en los cuales se añadiran los atributos si se requieren,
+y por ultimo {}, ejm:
+
+function OllaArrocera(Aceite, agua, arroz, tiempo_CoccionMin){
+    var ArrozCocido = Aceite+agua+arroz;
+    "Cocinar, esperar tiempo_CoccionMin"
+    return arroz;
+}
+
+Esto es una representacion basicade una olla arrocera como funcion, y para llamar o encender la funcion se escribe el nombre, entre parentesis los parametros requeridos en el orden q se colocaron
+
+OllaArrocera(10,10,20,60);
+
+* Declaraciones `if`
+
+
+
+* Valores booleanos (`true`, `false`)
