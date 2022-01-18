@@ -1,12 +1,11 @@
-function tienenMismaLongitud(str1, str2) {
-    // Devuelve "true" si las dos strings tienen la misma longitud
-    // De lo contrario, devuelve "false"
-    // Tu código:
-    if(str1.size == str2.size){
-      return true;
-    }
-    else{
-      return false;
-    }
+function redondearNumero(num) {
+  // Redondea "num" al entero más próximo y devuélvelo
+  // Tu código:
+  if((num-Math.floor(num))>0.5){
+    return Math.ceil(num);
   }
-  console.log(tienenMismaLongitud("hola","adios"));
+  else{
+    return Math.floor(num);
+  }
+}
+  console.log(redondearNumero(3.7));

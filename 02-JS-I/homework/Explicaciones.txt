@@ -40,7 +40,18 @@ Esto es una representacion basicade una olla arrocera como funcion, y para llama
 OllaArrocera(10,10,20,60);
 
 * Declaraciones `if`
+Es cuando se quiere hacer algo en base a cierta condicion, por ejemplo si llueve sacar el paraguas aqui la condicion seria que llueva y si es verdadero se debe sacar el paraguas
+el codigo seria asi:
+if(llueve){
+    "Llevar paraguas"
+}
+else{
+    "No llevar paraguas"
+}
 
-
+La palabra clave else quiere decir "de lo contrario" osea si la condicion es falsa se hara lo que vaya en el else, no toda sentencia if necesita un else.
 
 * Valores booleanos (`true`, `false`)
+Son valores de verdad, verdadero o falso y son resultados de una afirmacion por ejempo:
+1=1 verdadero 
+3*2=5 falso
