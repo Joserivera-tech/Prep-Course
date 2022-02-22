@@ -1,0 +1,32 @@
+*{
+    display: -webkit-flex;
+    display:         flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+ #thirdDiv{
+
+    width: 500px;
+    background: beige;
+    padding: 50px;
+    border: grey;
+    border-style: dashed;
+    border-width: 5px;
+}
+#spanId{
+    margin: 50px;
+    font-size: 18px;
+}
+.divClass{
+
+    background-color: rgb(255, 255, 81);
+}
+.body{
+    
+    background-image: url("https://www.camara.es/sites/default/files/blog/colombia.jpg");
+    background-color: transparent;
+    
+}

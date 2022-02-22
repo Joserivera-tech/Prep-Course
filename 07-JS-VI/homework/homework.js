@@ -64,7 +64,6 @@ function filter(array) {
   var arr=array.map(iniciaA).filter(word => word.length>0);
   return arr;
 }
-console.log(filter(['abajo', 'pera', 'escalera', 'alerta', 'indice', 'azteca', 'arbol', 'buzo']));
 
 // No modificar nada debajo de esta línea
 // --------------------------------
