@@ -8,13 +8,22 @@
             justify-content: center;
 }
  #thirdDiv{
-
     width: 500px;
     background: beige;
     padding: 50px;
     border: grey;
     border-style: dashed;
     border-width: 5px;
+}
+#header{
+    width: 500px;
+    height: 50px;
+    background: beige;
+    padding: 5px;
+    border: grey;
+    border-style:groove;
+    border-width: 5px;
+    margin: 10px;
 }
 #spanId{
     margin: 50px;
@@ -25,8 +34,18 @@
     background-color: rgb(255, 255, 81);
 }
 .body{
-    
     background-image: url("https://www.camara.es/sites/default/files/blog/colombia.jpg");
     background-color: transparent;
-    
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.body2{
+    background-image: url("https://www.revistaneo.com/sites/default/files/2020-10/fondos-padres.jpg");
+    background-color: transparent;
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
